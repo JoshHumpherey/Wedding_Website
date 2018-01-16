@@ -27,6 +27,7 @@ p {line-height: 2}
     <h2>Are getting married</h2>
     <h2><b>05.19.2018</b></h2>
   </div>
+
 </header>
 
 <!-- Navbar (sticky bottom) -->
@@ -41,6 +42,8 @@ p {line-height: 2}
 
 <!-- About / Josh & Abby -->
 <div class="w3-container w3-padding-64" id="us">
+  <script src="//www.powr.io/powr.js?external-type=html"></script>
+   <div class="powr-countdown-timer" id="4d0f438c_1516136677"></div>
   <div class="w3-content">
     <h1 class="w3-center w3-text-grey"><b>Josh and Abby</b></h1>
     <img class="w3-round" src="/static/romantic2.jpg" style="width:100%;margin:32px 0">
@@ -73,8 +76,8 @@ p {line-height: 2}
       </div>
       <div class="w3-half">
         <h2>Where</h2>
-        <p>1424 Killian Rd, Akron, OH 44312</p>
-        <p>1015 Edison St NW, Hartville, OH 44632</p>
+        <p><a href="https://www.google.com/maps/place/Maranatha+Bible+Church/@40.9949146,-81.4742829,17z/data=!3m1!4b1!4m5!3m4!1s0x88312b1d57db4dd1:0x48f4e66f3886ae76!8m2!3d40.9949106!4d-81.4720942" title="Maranatha Bible Church" target="_blank" class="w3-hover-text-red">1424 Killian Rd, Akron, OH 44312</a></p>
+        <p><a href="https://www.google.com/maps/place/Hartville+Kitchen/@40.9714312,-81.3614152,17z/data=!3m1!4b1!4m5!3m4!1s0x88312d4729d1b3a7:0xe76b18bbda54809a!8m2!3d40.9714272!4d-81.3592265" title="Hartville Kitchen" target="_blank" class="w3-hover-text-red">1015 Edison St NW, Hartville, OH 44632</a></p>
       </div>
     </div>
   </div>
@@ -95,17 +98,14 @@ p {line-height: 2}
     <div class="w3-container w3-white w3-center">
       <h1 class="w3-wide">CAN YOU COME?</h1>
       <p>We really hope you can make it.</p>
-      <form>
-        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
-      </form>
-      <p><i>Sincerely, Josh & Abby</i></p>
       <div class="w3-row">
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
-        </div>
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
-        </div>
+        <form action="mailto:jhumphrey321@gmail.com?subject=Wedding_RSVP" subject method="post" enctype="text/plain">
+        <br><input class="w3-input w3-border" type="text" placeholder="Name(s)" name="Guests"><br>
+        <br><input class="w3-input w3-border" type="text" placeholder="Accepting or Declining?" name="Attending"><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+              <p><i>Sincerely, Josh & Abby</i></p>
+        </form>
       </div>
     </div>
   </div>
@@ -113,7 +113,7 @@ p {line-height: 2}
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <p>Powered by <a href="https://www.donaldjtrump.com/" title="America" target="_blank" class="w3-hover-text-red">America</a></p>
 </footer>
 <div class="w3-hide-small" style="margin-bottom:32px"> </div>
 
